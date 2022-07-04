@@ -20,5 +20,6 @@ W celu dodania nowego konta, należy:
 - Dodanie języka angielskiego.
 - Stworzenie lepszych zabezpieczeń.
 - Więcej kolorów.
+- Optymalizacja kodu i lepsza organizacja plików.
 
 
