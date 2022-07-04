@@ -77,12 +77,12 @@ void transfer(int nrKontaT, int nrKontaR, int liczbaKont){ //Funckja odpowiadaj�
     int status = 0; //Zmienna służąca do sprawdzenia czy odjęto i dodano kwotę do odpowiendich kąt
 
 
-    cout << "Prosimy o podanie kwoty do przelania." << endl << "UWAGA! Po wpisaniu liczby, czynności nie da sie cofnac." << endl;
+    cout << "Prosimy o podanie kwoty do przelania." << endl << "UWAGA! Po wpisaniu liczby, czynnosci nie da sie cofnac." << endl;
 
     cin >> kwotaD; //Zebranie kwoty do przelewu
 
     if (kwotaD > stoi(kwotaM[nrKontaT]) || kwotaD < 1){ //Jeżeli kwota jest mniejsza niż stan konta lub kwota jest mniejsza od 1
-        cout << "Brak podanych srodkow na koncie lub kwota do przelania wynosi 0." << endl << "Prosimy podać prawidlowa kwote" << endl;
+        cout << "Brak podanych srodkow na koncie lub kwota do przelania wynosi 0." << endl << "Prosimy podac prawidlowa kwote" << endl;
         cin >> kwotaD; //Zebranie na nowo kwoty do przelewu
     } else {
 
