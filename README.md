@@ -1,4 +1,4 @@
-# System Bankowy version 1.0.0
+# System Bankowy v1.0.0
 
 ## Czym jest projekt?
 
